@@ -43,7 +43,6 @@ def RPSLS():
 
         # Choose a random action for the other move
         computer_action = actions[random.randint(0, len(actions) - 1)]
-        computer_action = "Lizard"
         print "Computer Action: " + computer_action
         
         # Get the index(s) of this (computer) action in the actions list
