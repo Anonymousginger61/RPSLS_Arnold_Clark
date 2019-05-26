@@ -35,7 +35,7 @@ def RPSLS():
     # What the user chooses (e.g. Scissiors)
     user_action = raw_input("Enter Action: ")
 
-    # Check that this is a valid action (i.e. it appears more than once in the actions list)
+    # Check that this is a valid action (i.e. it appears at least once in the actions list)
     if (actions.count(user_action) > 0):
 
         # Get the index(s) of this (user) action in the actions list
